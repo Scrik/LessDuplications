@@ -1,6 +1,6 @@
 name: LessDuplications
 main: LessDuplications.LDMain
-version: 0.2
+version: 0.2-beta
 author: MegaFlary, nikes64
 website: 'http://gametk.net/'
 commands:
