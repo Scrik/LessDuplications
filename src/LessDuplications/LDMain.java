@@ -13,13 +13,13 @@ public class LDMain extends JavaPlugin {
 
     protected LDConfig config;
     public static Logger logger = Logger.getLogger("LessDuplications");
-    
+
     private static String prefix = ChatColor.GREEN + "[GameTK]";
 
     @Override
     public void onEnable() {
         config = new LDConfig("plugins/LessDuplications/config.yml");
-        
+
         if (config.enabled == false) {
             logger.info("[LessDuplications] Плагин не загружен - isPluginEnabled = false.");
             return;
@@ -51,7 +51,7 @@ public class LDMain extends JavaPlugin {
 
         return true;
     }
-    
+
     public static void LDBroadcastMessage(String message) {
         Bukkit.broadcastMessage(prefix + " " + message);
     }
