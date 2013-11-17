@@ -1,5 +1,11 @@
 name: LessDuplications
-main: LessDuplications.Main
-version: 1.1
+main: LessDuplications.LDMain
+version: 1.2
 author: MegaFlary, nikes64
-website: 'http://gametk.net'
+website: 'http://gametk.net/'
+commands:
+  ld:
+    description: Main LessDuplications command.
+    usage: |
+           /<command> reload - перезагрузить конфиг.
+    permission: lessduplications.command

@@ -1,0 +1,12 @@
+settings:
+  #Включён ли плагин
+  isPluginEnabled: true
+fix:
+  #Запретить взаимодействие с блоками сидя в транспорте
+  disableBlockInteractInVehicle: true
+  #Запретить взаимодействие с рамками сидя в транспорте
+  disableFrameInteractInVehicle: true
+  #Запртетить разрушение рамки сидя в транспорте
+  disableFrameDestroyInVehicle: true
+  #Принудительно закрывать инвентарь игрока при телепортации
+  closeInventoryOnTeleport: true
